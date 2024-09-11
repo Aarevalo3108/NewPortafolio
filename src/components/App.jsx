@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
 
   return (
-    <>
+  <main className="grid">
     <Router>
       <NavBar />
       <Routes>
@@ -13,7 +13,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-    </>
+  </main>
   )
 }
 

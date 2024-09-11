@@ -20,6 +20,28 @@
       "MiguelCare2.png",
       "MiguelCare3.png"
     ]
+  },
+  {
+    "name": "Chiller Trane",
+    "description": "Puesta en marcha de equipo Trane Chiller de 60 Toneladas en 2024 para Helados Cali. Se programó la interfaz CH530 y se recableo toda la parte electrónica",
+    "type": "ref",
+    "images": [
+      "Chiller1.png",
+      "Chiller2.png",
+      "Chiller3.png",
+      "Chiller4.png"
+    ]
+  },
+  {
+    "name": "HVAC",
+    "description": "Instalación, mantenimiento y arranque de equipos HVAC domésticos e industriales.",
+    "type": "ref",
+    "images": [
+      "HVAC1.png",
+      "HVAC2.png",
+      "HVAC3.png",
+      "HVAC4.png"
+    ]
   }
 ]
 }

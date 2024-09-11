@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const WhoAmI = ({id}) => {
   return (
     <div id={id} className="grid place-items-center gap-4 p-2 pt-16">
-      <h2 className="text-xl font-bold">¿Quien soy?</h2>
-      <span className="grid gap-4 text-justify text-md p-2 ">
+      <h2 className="text-xl lg:text-2xl font-bold">¿Quien soy?</h2>
+      <span className="grid gap-4 text-justify text-md lg:text-lg p-2 ">
 
       <p>Mi nombre es
         <span className="text-n3"> Ángel Miguel Arévalo Cabello</span>

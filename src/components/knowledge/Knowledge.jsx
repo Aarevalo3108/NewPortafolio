@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Knowledge = ({id}) => {
   return (
     <div id={id} className="grid p-2 gap-4 w-full">
-      <h2 className="text-xl font-bold text-center">Conocimientos.</h2>
+      <h2 className="text-xl lg:text-2xl font-bold text-center">Conocimientos.</h2>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div className="grid place-items-start p-4 bg-n150 rounded-lg gap-4">
@@ -43,7 +43,7 @@ const Knowledge = ({id}) => {
           </ul>
         </div>
 
-        <div className="grid place-items-start p-4 bg-n150 rounded-lg gap-4">
+        <div className="grid md:col-span-3 place-items-start md:place-items-center lg:col-span-1 lg:place-items-start p-4 bg-n150 rounded-lg gap-4">
           <h3 className="text-lg font-bold text-n3">Electrónica</h3>
           <ul className="grid grid-cols-1 gap-4 text-n5 text-sm">
             <li>Arduino</li>
