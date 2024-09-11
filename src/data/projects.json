@@ -1,0 +1,25 @@
+{
+  "docs":[
+  {
+    "name": "Animalife",
+    "description": "Animalife es una aplicacion web ecommerce que te permite adquirir productos para mascotas de la mejor calidad. Desarrollado con MERN Stack y TailwindCSS.",
+    "type": "web",
+    "images": [
+      "Animalife1.png",
+      "Animalife2.png",
+      "Animalife3.png",
+      "Animalife4.png"
+    ]
+  },
+  {
+    "name": "MiguelCare",
+    "description": "MiguelCare es una web E-commerce para la venta de productos cosmeticos. Desarrollado con SASS.",
+    "type": "web",
+    "images": [
+      "MiguelCare1.png",
+      "MiguelCare2.png",
+      "MiguelCare3.png"
+    ]
+  }
+]
+}
