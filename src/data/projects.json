@@ -5,10 +5,10 @@
     "description": "Animalife es una aplicacion web ecommerce que te permite adquirir productos para mascotas de la mejor calidad. Desarrollado con MERN Stack y TailwindCSS.",
     "type": "web",
     "images": [
-      "Animalife1.png",
-      "Animalife2.png",
-      "Animalife3.png",
-      "Animalife4.png"
+      "Animalife1.webp",
+      "Animalife2.webp",
+      "Animalife3.webp",
+      "Animalife4.webp"
     ]
   },
   {
@@ -16,9 +16,9 @@
     "description": "MiguelCare es una web E-commerce para la venta de productos cosmeticos. Desarrollado con SASS.",
     "type": "web",
     "images": [
-      "MiguelCare1.png",
-      "MiguelCare2.png",
-      "MiguelCare3.png"
+      "MiguelCare1.webp",
+      "MiguelCare2.webp",
+      "MiguelCare3.webp"
     ]
   },
   {
@@ -26,10 +26,10 @@
     "description": "Puesta en marcha de equipo Trane Chiller de 60 Toneladas en 2024 para Helados Cali. Se programó la interfaz CH530 y se recableo toda la parte electrónica",
     "type": "ref",
     "images": [
-      "Chiller1.png",
-      "Chiller2.png",
-      "Chiller3.png",
-      "Chiller4.png"
+      "Chiller1.webp",
+      "Chiller2.webp",
+      "Chiller3.webp",
+      "Chiller4.webp"
     ]
   },
   {
@@ -37,10 +37,10 @@
     "description": "Instalación, mantenimiento y arranque de equipos HVAC domésticos e industriales.",
     "type": "ref",
     "images": [
-      "HVAC1.png",
-      "HVAC2.png",
-      "HVAC3.png",
-      "HVAC4.png"
+      "HVAC1.webp",
+      "HVAC2.webp",
+      "HVAC3.webp",
+      "HVAC4.webp"
     ]
   }
 ]
