@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "styles": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/App.css --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
