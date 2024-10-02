@@ -1,18 +1,19 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
+import url from '../../url'
 const ProjectCard = ({ project }) => {
   const [image, setImage] = useState(project.images[0])
   return (
     <div className="grid place-items-center p-4 bg-n150 rounded-lg gap-4">
       <h3 className="text-lg lg:text-xl font-bold">{project.name}</h3>
       <div className="grid place-items-center gap-4">
-        <img className="max-h-[275px] object-cover rounded-lg shadow-lg p-1" src={`/projects/${image}`} alt={project.name} />
+        <img className="max-h-[275px] object-cover rounded-lg shadow-lg p-1" src={`${url}/projects/${image}`} alt={project.name} />
         {/* thumbnails */}
         <div className="flex justify-center gap-2 overflow-x-auto">
           {project.images.map((img) => (
             <img
               className={"w-16 rounded-xl hover:opacity-100 cursor-pointer " + (img === image ? " opacity-100" : "opacity-50")}
-              src={`/projects/${img}`}
+              src={`${url}/projects/${img}`}
               alt={project.name}
               key={img}
               onClick={() => setImage(img)}

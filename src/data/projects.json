@@ -24,23 +24,42 @@
   {
     "name": "Chiller Trane",
     "description": "Puesta en marcha de equipo Trane Chiller de 60 Toneladas en 2024 para Helados Cali. Se programó la interfaz CH530 y se recableo toda la parte electrónica",
-    "type": "ref",
+    "type": "ind",
     "images": [
       "Chiller1.webp",
       "Chiller2.webp",
-      "Chiller3.webp",
-      "Chiller4.webp"
+      "Chiller3.webp"
     ]
   },
   {
-    "name": "HVAC",
-    "description": "Instalación, mantenimiento y arranque de equipos HVAC domésticos e industriales.",
-    "type": "ref",
+    "name": "Planta de Cemento Premezclado Sany",
+    "description": "Puesta en marcha de planta Sany de cemento premezclado. Inspección y mantenimiento de sensores, además de una correcta organizacion de la sala de control.",
+    "type": "ind",
     "images": [
-      "HVAC1.webp",
-      "HVAC2.webp",
-      "HVAC3.webp",
-      "HVAC4.webp"
+      "Sany1.webp",
+      "Sany2.webp",
+      "Sany3.webp",
+      "Sany4.webp"
+    ]
+  },
+  {
+    "name": "Movistar",
+    "description": "Alternativa a diseño de la página de movistar, desarrollado con TailwindCSS y un poco de JS.",
+    "type": "web",
+    "images": [
+      "Movistar1.webp",
+      "Movistar2.webp",
+      "Movistar3.webp"
+    ]
+  },
+  {
+    "name": "Youtube",
+    "description": "Replica de la pagina de youtube. Desarrollado con HTML y CSS puro.",
+    "type": "web",
+    "images": [
+      "Youtube1.webp",
+      "Youtube2.webp",
+      "Youtube3.webp"
     ]
   }
 ]

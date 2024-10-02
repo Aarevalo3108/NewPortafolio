@@ -53,14 +53,6 @@ const Knowledge = ({id}) => {
             <li>ESP8266</li>
           </ul>
         </div>
-        
-        <div className="grid col-span-2 md:col-span-3 lg:col-span-4 place-items-center p-4 bg-n150 rounded-lg gap-4">
-          <h3 className="text-lg font-bold text-n3">Refrigeración</h3>
-          <ul className="grid grid-cols-1 gap-4 text-n5 text-sm">
-            <li>HVAC</li>
-            <li>Chillers</li>
-          </ul>
-        </div>
       </div>
     </div>
   )
