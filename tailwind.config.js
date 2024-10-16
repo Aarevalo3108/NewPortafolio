@@ -15,9 +15,12 @@ export default {
         n4: '#f0b90b',
         n5: '#e3c994',
         n6: '#f2f2f2',
+        n7: '#0a0a0a',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    '@codaworks/react-glow/tailwind'
+  ],
 }
 

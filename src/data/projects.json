@@ -9,7 +9,9 @@
       "Animalife2.webp",
       "Animalife3.webp",
       "Animalife4.webp"
-    ]
+    ],
+    "code": "https://github.com/Aarevalo3108/Animalife",
+    "demo": "#"
   },
   {
     "name": "MiguelCare",
@@ -19,28 +21,9 @@
       "MiguelCare1.webp",
       "MiguelCare2.webp",
       "MiguelCare3.webp"
-    ]
-  },
-  {
-    "name": "Chiller Trane",
-    "description": "Puesta en marcha de equipo Trane Chiller de 60 Toneladas en 2024 para Helados Cali. Se programó la interfaz CH530 y se recableo toda la parte electrónica",
-    "type": "ind",
-    "images": [
-      "Chiller1.webp",
-      "Chiller2.webp",
-      "Chiller3.webp"
-    ]
-  },
-  {
-    "name": "Planta de Cemento Premezclado Sany",
-    "description": "Puesta en marcha de planta Sany de cemento premezclado. Inspección y mantenimiento de sensores, además de una correcta organizacion de la sala de control.",
-    "type": "ind",
-    "images": [
-      "Sany1.webp",
-      "Sany2.webp",
-      "Sany3.webp",
-      "Sany4.webp"
-    ]
+    ],
+    "code": "https://github.com/Aarevalo3108/MiguelCare",
+    "demo": "https://aarevalo3108.github.io/MiguelCare/"
   },
   {
     "name": "Movistar",
@@ -50,7 +33,9 @@
       "Movistar1.webp",
       "Movistar2.webp",
       "Movistar3.webp"
-    ]
+    ],
+    "code": "https://github.com/Aarevalo3108/Movistar",
+    "demo": "https://aarevalo3108.github.io/Movistar/"
   },
   {
     "name": "Youtube",
@@ -60,7 +45,9 @@
       "Youtube1.webp",
       "Youtube2.webp",
       "Youtube3.webp"
-    ]
+    ],
+    "code": "https://github.com/Aarevalo3108/Proyecto_Youtube",
+    "demo": "https://aarevalo3108.github.io/Proyecto_Youtube/html/principal.html"
   }
 ]
 }

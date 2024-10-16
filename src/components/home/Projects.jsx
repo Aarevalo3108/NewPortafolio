@@ -1,24 +1,32 @@
-import { useState } from "react"
 import PropTypes from 'prop-types'
+import { useEffect } from 'react'
 import ProjectCard from "./ProjectCard"
 import data from "../../data/projects.json"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Projects = ({id}) => {
-  const [type, setType] = useState("web")
+  // const [type, setType] = useState("web")
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <div id={id} className="grid place-items-center p-2 pt-16">
+    <div id={id} className="grid place-items-center p-2 gap-4 pt-16">
       <h2 className="text-xl lg:text-2xl font-bold">Proyectos Realizados.</h2>
-      <div className="grid p-4 grid-cols-2 gap-4">
+      {/* <div className="grid p-4 gap-4">
         <button className={"px-4 py-1 rounded-full hover:bg-n3 hover:text-n1 hover:scale-105 transition-all duration-300 " + (type === "web" ? "bg-n3 text-n1" : "bg-n2 text-n6")} onClick={() => setType("web")}>FullStack</button>
-        <button className={"px-4 py-1 rounded-full hover:bg-n3 hover:text-n1 hover:scale-105 transition-all duration-300 " + (type === "ind" ? "bg-n3 text-n1" : "bg-n2 text-n6")} onClick={() => setType("ind")}>Electrónica</button>
-      </div>
+      </div> */}
 
       <div className="grid lg:grid-cols-2 gap-4">
         {data.docs
-          .filter((project) => project.type === type)
+          .filter((project) => project.type === "web")
           .map((project) => (
-            <ProjectCard key={project.name} project={project} />
+            <>
+              <ProjectCard key={project.name} project={project} />
+            </>
           ))}
       </div>
     </div>
